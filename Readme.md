@@ -52,3 +52,21 @@ The goal of this project is to explore performance and scalability limits of Con
 the next grid state is divided into column-based chunks computed in parallel by multiple threads.
     - The number of threads created depends on the number of processors available to the program
     - The number of columns assigned to each thread is determined dynamically to ensure a similar number of update operations per thread
+
+## Cloning and Executing the Program Locally
+
+Pre requisits :
+- **git**
+- **Java** (21 or later)
+- **Maven** (3.8 or later)
+
+1. Clone the repo
+```bash
+git clone https://github.com/Nebulaevo/game-of-life-java.git
+```
+
+2. Move to the root folder & run the program
+```bash
+cd game-of-life-java
+mvn javafx:run
+```
