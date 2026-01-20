@@ -5,6 +5,7 @@
 
 ![](/doc/media/intense-simulation.gif)
 
+▶️ **[Download the full simulation video (1m41s)](https://github.com/Nebulaevo/game-of-life-java/releases/download/v1.0.0/simulation-recording.mp4)**
 
 ## What is this Project ?
 
