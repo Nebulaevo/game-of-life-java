@@ -5,7 +5,7 @@
 
 	<groupId>com.nebulaevo.demo</groupId>
 	<artifactId>GameOfLife</artifactId>
-	<version>0.1.0-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
 	<name>Game of Life</name>
@@ -18,7 +18,6 @@
 		<dependency.junit.version>3.8.1</dependency.junit.version>
 		<javafx.version>21.0.9</javafx.version>
 		<javafx.maven.plugin.version>0.0.8</javafx.maven.plugin.version>
-		<!--<maven.compiler.plugin.version>3.14.1</maven.compiler.plugin.version>-->
 	</properties>
 
 	<dependencies>
@@ -46,14 +45,6 @@
 					<mainClass>com.nebulaevo.demo.GameOfLife.App</mainClass>
 				</configuration>
 			</plugin>
-			
-			<!-- Utility ? -->
-			<!--<plugin> 
-				<groupId>org.apache.maven.plugin</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>${maven.compiler.plugin.version}</version>
-			</plugin>-->
-			
 		</plugins>
 	</build>
 
