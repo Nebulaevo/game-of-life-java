@@ -56,12 +56,12 @@ the next grid state is divided into column-based chunks computed in parallel by 
 
 ## Cloning and Executing the Program Locally
 
-Pre requisits :
+Prerequisites :
 - **git**
 - **Java** (21 or later)
 - **Maven** (3.8 or later)
 
-1. Clone the repo
+1. Clone the repository
 ```bash
 git clone https://github.com/Nebulaevo/game-of-life-java.git
 ```
